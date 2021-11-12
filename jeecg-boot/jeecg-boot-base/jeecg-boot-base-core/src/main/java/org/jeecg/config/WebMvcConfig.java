@@ -26,7 +26,7 @@ import java.util.List;
  *
  */
 @Configuration
-public class WebMvcConfiguration implements WebMvcConfigurer {
+public class WebMvcConfig implements WebMvcConfigurer {
 
     @Value("${jeecg.path.upload}")
     private String upLoadPath;
