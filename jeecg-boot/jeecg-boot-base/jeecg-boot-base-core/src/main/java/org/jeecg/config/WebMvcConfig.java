@@ -55,7 +55,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
     }
 
     @Bean
-    @Conditional(CorsFilterCondition.class)
+    //@Conditional(CorsFilterCondition.class)
     public CorsFilter corsFilter() {
         final UrlBasedCorsConfigurationSource urlBasedCorsConfigurationSource = new UrlBasedCorsConfigurationSource();
         final CorsConfiguration corsConfiguration = new CorsConfiguration();

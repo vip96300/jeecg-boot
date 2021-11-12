@@ -15,13 +15,6 @@ spring:
       discovery:
         locator:
           enabled: true
-      globalcors:
-        cors-configurations:
-          '[/**]':
-            allowCredentials: true
-            allowedOrigins: "*"
-            allowedMethods: "*"
-            allowedHeaders: "*"
 #      #如果启用nacos或者数据库配置请删除一下配置
 #      routes:
 #        - id: jeecg-demo
