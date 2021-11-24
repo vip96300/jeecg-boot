@@ -1,9 +1,9 @@
 //package org.jeecg;
 //
-//import org.jeecg.modules.demo.mock.MockController;
-//import org.jeecg.modules.demo.test.entity.JeecgDemo;
-//import org.jeecg.modules.demo.test.mapper.JeecgDemoMapper;
-//import org.jeecg.modules.demo.test.service.IJeecgDemoService;
+//import org.jeecg.modules.mock.MockController;
+//import org.jeecg.modules.test.entity.JeecgDemo;
+//import org.jeecg.modules.test.mapper.JeecgDemoMapper;
+//import org.jeecg.modules.test.service.IJeecgDemoService;
 //import org.junit.Assert;
 //import org.junit.Test;
 //import org.junit.runner.RunWith;
