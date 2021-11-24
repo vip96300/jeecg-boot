@@ -9,6 +9,7 @@ import org.jeecg.modules.system.service.ISysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -187,10 +188,9 @@ public class SystemAPIController {
     @GetMapping("/queryAllRole")
     public List<ComboModel> queryAllRole(@RequestParam(name = "roleIds",required = false)String[] roleIds){
         if(roleIds==null || roleIds.length==0){
-            return sysBaseAPI.queryAllRole();
-        }else{
-            return sysBaseAPI.queryAllRole(roleIds);
+            return new ArrayList<>(0);
         }
+        return sysBaseAPI.queryAllRole(roleIds);
     }
 
     /**
