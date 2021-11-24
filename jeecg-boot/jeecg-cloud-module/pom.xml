@@ -16,7 +16,6 @@
         <module>jeecg-cloud-nacos</module>
         <module>jeecg-cloud-sentinel</module>
         <module>jeecg-cloud-monitor</module>
-        <module>jeecg-cloud-system-start</module>
         <module>jeecg-cloud-xxljob</module>
     </modules>
 
